@@ -32,4 +32,4 @@ def submit():
     table.insert(signature)
     return redirect(url_for('guest_book'))
 
-app.run(debug=True)
+app.run(debug=True,host='0.0.0.0')
